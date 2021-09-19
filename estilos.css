@@ -1,0 +1,101 @@
+body{
+    background-image: url(wheat.png);  
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    background-image: url(wheat.png);
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+::-webkit-scrollbar-thumb {
+    background: #f86c6e;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #9c507c;
+}
+
+/* Cambiamos el fondo cuando esté en active */
+::-webkit-scrollbar-thumb:active {
+    background-color: #b34862;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track:active {
+  background: #432848;
+}
+
+.title{
+    background-color: #f86c6e;
+
+}
+
+.container h1{
+    text-align: center;
+    color: #5b2950;
+    padding-top: 20px;
+}
+
+#items{
+    background: transparent;
+    border: 2px solid #f86c6e;
+}
+
+#items img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#items img:hover{
+    box-shadow: 0px 0px 18px #f86c6e;
+}
+
+footer{
+    padding-top: 10px;
+}
+
+footer p{
+    text-align: center;
+    background-color: #f86c6e;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #5b2950;
+}
+
+
+@media (min-width:1024px) and (max-width:1215px){
+
+    .title{
+        border-radius: 5px;
+    }
+    
+}
+
+@media (min-width:1216px) and (max-width:1407px){
+
+    .title{
+        border-radius: 5px;
+    }
+}
+
+@media (min-width:1408px) and (max-width:1920px){
+
+    .title{
+        border-radius: 5px;
+    }
+}
+
